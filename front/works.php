@@ -28,7 +28,7 @@
                         $image=all("pics",["sh"=>1]);
                         foreach($image as $key=>$i){
                             echo "<div class='cent im' id='ssaa$key'>";
-                            echo " <img src='".$i['pic']."' style='width:250px;height:250px; margin:auto;'>";
+                            echo " <img src='".$i['pic']."' style='width:150px;height:150px; margin:auto;'>";
                             echo "</div>";
                         }
                     ?>
