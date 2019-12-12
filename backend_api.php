@@ -1,7 +1,7 @@
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet"> 
 <?php
 $dsn="mysql:host=localhost;charset=utf8;dbname=login";
 $pdo=new PDO($dsn,'root','');
-
 
 
 $id=$_POST['id'];

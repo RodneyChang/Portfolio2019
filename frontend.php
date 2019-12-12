@@ -18,8 +18,13 @@
    
     <script src="./js/js.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet"> 
 
- 
+      <style>
+        *{
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+      </style>
 </head>         
             <body>
             <form action="login.php" method="POST">

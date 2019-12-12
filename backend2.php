@@ -35,7 +35,11 @@ if(!empty($_FILES) && $_FILES['pics']['error']==0){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet"> 
     <style>
+          *{
+        font-family: 'Noto Sans TC', sans-serif;
+      }
         .uploadarea{
 
             padding-top: 30px;
